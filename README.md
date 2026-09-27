@@ -14,12 +14,13 @@ Assignment1 Repository
 	• Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.
  - Used If function as follows - =IF(G2>=500,"High Price","Standrard Price")
 	
-5) SUMIF and COUNTIF:	
+4) SUMIF and COUNTIF:	
 	• Calculate the total price for products in the 'Electronics' category using the SUMIF function. - 8050 - Used this -> =SUMIF(J2:J35,"Electronics",G2:G35)
 	• Determine the count of products with a price less than $100 using the COUNTIF function. - 11 - Used this -> =COUNTIF(G2:G35,"<100")
 	
-6) Text Formatting - LEFT, RIGHT, MID:	
+5) Text Formatting - LEFT, RIGHT, MID:	
 	• Create a new column named Day with the first 2 characters of each 'Product ID' using the LEFT function. - Used this --> =LEFT(A2,2)
 	• Create a new column named Country Code by extracting the last 2 characters from the 'Product ID' column using the RIGHT function. - Used this --> =RIGHT(A2,2)
 	• Create a new column named Month by extracting 4th to 6th characters from the 'Product ID' column using the MID function. --> Used this --> =MID(A2,4,3)
-<img width="1094" height="547" alt="image" src="https://github.com/user-attachments/assets/1185c5db-d96c-45a2-ad4c-2e1384f92e66" />
+
+
