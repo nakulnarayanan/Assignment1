@@ -23,4 +23,4 @@ Assignment1 Repository
 	• Create a new column named Country Code by extracting the last 2 characters from the 'Product ID' column using the RIGHT function. - Used this --> =RIGHT(A2,2)
 	• Create a new column named Month by extracting 4th to 6th characters from the 'Product ID' column using the MID function. --> Used this --> =MID(A2,4,3)
 
-
+<img width="1094" height="547" alt="image" src="https://github.com/user-attachments/assets/1185c5db-d96c-45a2-ad4c-2e1384f92e66" />
